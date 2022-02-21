@@ -1,0 +1,41 @@
+{
+    "solution": {
+        "provisionSucceeded": false,
+        "resourceNameSuffix": "854981",
+        "resourceGroupName": "azure122001-dev-rg",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "1756abc0-3554-4341-8d6a-46674962ea19",
+        "subscriptionName": "Teams Cloud - Dev Test with TTL = 7 Days",
+        "location": "Central US",
+        "teamsAppTenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "needCreateResourceGroup": false
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "azure12200devf24828tab.z19.web.core.windows.net",
+        "endpoint": "https://azure12200devf24828tab.z19.web.core.windows.net",
+        "storageResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/azure122001-dev-rg/providers/Microsoft.Storage/storageAccounts/azure12200devf24828tab"
+    },
+    "fx-resource-identity": {
+        "identityName": "azure12200devf24828",
+        "identityResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/azure122001-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/azure12200devf24828",
+        "identityClientId": "e094c5ba-9444-4543-9b3e-7beaba875f23"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "50236c20-831c-4df9-8464-2951d612e9bf",
+        "objectId": "57b53ce1-1cb5-47f4-8c00-5baf8d0c44d9",
+        "oauth2PermissionScopeId": "7e2a0eb2-9849-4eaa-ae0c-f718e12b5a10",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "applicationIdUris": "api://azure12200devf24828tab.z19.web.core.windows.net/50236c20-831c-4df9-8464-2951d612e9bf",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}"
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "70060501-af9a-4d64-a332-159deddb4de9",
+        "teamsAppUpdatedAt": 1640141745800
+    },
+    "fx-resource-simple-auth": {
+        "endpoint": "https://azure12200devf24828simpleauth.azurewebsites.net",
+        "webAppResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/azure122001-dev-rg/providers/Microsoft.Web/sites/azure12200devf24828simpleAuth"
+    }
+}

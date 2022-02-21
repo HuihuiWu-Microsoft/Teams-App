@@ -1,0 +1,39 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "resourceNameSuffix": "a87828",
+        "resourceGroupName": "azure122001-prod-rg",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "1756abc0-3554-4341-8d6a-46674962ea19",
+        "subscriptionName": "Teams Cloud - Dev Test with TTL = 7 Days",
+        "location": "Central US",
+        "teamsAppTenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "azure12200prod7ae37atab.z19.web.core.windows.net",
+        "endpoint": "https://azure12200prod7ae37atab.z19.web.core.windows.net",
+        "storageResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/azure122001-prod-rg/providers/Microsoft.Storage/storageAccounts/azure12200prod7ae37atab"
+    },
+    "fx-resource-identity": {
+        "identityName": "azure12200prod7ae37a",
+        "identityResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/azure122001-prod-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/azure12200prod7ae37a",
+        "identityClientId": "27c9ac40-ad71-4380-89a3-e81ca2f91f60"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "181330b5-0dc4-48c1-96d9-607485c721dc",
+        "objectId": "9d432858-4524-4147-9f6d-613e497016d7",
+        "oauth2PermissionScopeId": "135f0cf1-29c7-46a2-b2c1-ae1ae3ef0ee6",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "applicationIdUris": "api://azure12200prod7ae37atab.z19.web.core.windows.net/181330b5-0dc4-48c1-96d9-607485c721dc",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}"
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "dc6b59cf-2298-4234-8a16-6e5c66a1fb68"
+    },
+    "fx-resource-simple-auth": {
+        "endpoint": "https://azure12200prod7ae37asimpleauth.azurewebsites.net",
+        "webAppResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/azure122001-prod-rg/providers/Microsoft.Web/sites/azure12200prod7ae37asimpleAuth"
+    }
+}
